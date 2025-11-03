@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTests" parallel="tests" thread-count="1">
+    <test name="Samsung Galaxy S23 Test">
+        <parameter name="device" value="Samsung Galaxy S23"/>
+        <parameter name="os_version" value="14.0"/>
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="MastodonAndroidTest"/>
+        </classes>
+    </test>
+</suite>

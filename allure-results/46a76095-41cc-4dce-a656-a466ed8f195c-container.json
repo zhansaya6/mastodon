@@ -1,0 +1,1 @@
+{"uuid":"46a76095-41cc-4dce-a656-a466ed8f195c","name":"MastodonAndroidTest.tearDown","children":["7651ed1f-cf1f-4dc9-a0be-5e65a0cf2bd1"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1762026525295,"stop":1762026525295}],"start":1762026525295,"stop":1762026525296}
