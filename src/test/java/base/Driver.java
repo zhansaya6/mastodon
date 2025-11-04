@@ -36,8 +36,8 @@ public class Driver {
 
     private static UiAutomator2Options setCapabilities() {
         Map<String, Object> bstack = new HashMap<>();
-        bstack.put("userName", System.getenv("BROWSERSTACK_USERNAME"));
-        bstack.put("accessKey", System.getenv("BROWSERSTACK_ACCESS_KEY"));
+        bstack.put("userName", System.getProperty("BROWSERSTACK_USERNAME", System.getenv("BROWSERSTACK_USERNAME")));
+        bstack.put("accessKey", System.getProperty("BROWSERSTACK_ACCESS_KEY", System.getenv("BROWSERSTACK_ACCESS_KEY")));
         bstack.put("deviceName", "Google Pixel 7");
         bstack.put("buildName", "Appium Java Demo");
         bstack.put("sessionName", "Smoke - Android");
