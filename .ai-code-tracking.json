@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "records": [
+    {
+      "filePath": "/Users/zhansayakalsatova/Learning/appium/mastodon/src/test/java/base/Driver.java",
+      "timestamp": 1762294639507,
+      "startOffset": 1234,
+      "endOffset": 1325,
+      "codeContent": "Property(\"BROWSERSTACK_USERNAME\",\n                 System.getenv(\"BROWSERSTACK_USERNAME\"));",
+      "aiProbability": 90,
+      "aiTool": "AI Assistant",
+      "detectionMethod": "REALTIME_SPEED_ANALYSIS",
+      "lineCount": 2
+    }
+  ],
+  "toolStats": {
+    "AI Assistant": {
+      "usageCount": 1,
+      "totalLines": 2
+    }
+  }
+}
