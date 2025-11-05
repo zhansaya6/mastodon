@@ -10,6 +10,7 @@ public class MastodonAndroidTest {
         MastodonSteps.pickAnotherServerBtnIsDisplayed();
         MastodonSteps.clickPickAnotherServerBtn();
         MastodonSteps.pickForMeBtnIsDisplayed();
+        System.out.println();
     }
 
     @AfterMethod
